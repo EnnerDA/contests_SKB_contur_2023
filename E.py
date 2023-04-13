@@ -1,5 +1,3 @@
-# O(n**2)
-
 # приём данных
 f = open('input.txt', 'r')
 N, M = map(int, f.readline().split())
