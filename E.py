@@ -18,16 +18,25 @@ def find_max(field: list, minus_row: int = -1, minus_col: int = -1) -> (int, int
     r, c = 0, 0
     for row in range(len(field)):
         if minus_row != -1:
-            if row == minus_row: 
+            if row == minus_row:
                 continue
         for col in range(len(field[0])):
             if minus_col != -1:
-                if col == minus_col: 
+                if col == minus_col:
                     continue
-            if field[row][col] > temp_max:
+            #print(field[row][col], end = ' ')
+            if field[row][col] == 9:
+                r = row
+                c = col
+                temp_max = 9
+                break
+            elif field[row][col] > temp_max:
                 r = row
                 c = col
                 temp_max = field[row][col]
+        if temp_max == 9:
+            break
+        #print()
     return temp_max, r, c
 
 
