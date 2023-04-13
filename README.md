@@ -1,6 +1,7 @@
 # contests_SKB_contur_2023
+[Условия задач](https://github.com/skbkontur/contests/blob/main/internship_cs_mar23/statements.pdf)
 
-Задача D. Общительный человек.
+[Задача D. Общительный человек.](https://github.com/EnnerDA/contests_SKB_contur_2023/blob/main/D.py)
 
 [Задача E. Неплохой огородник.](https://github.com/EnnerDA/contests_SKB_contur_2023/blob/main/E.py)
 
